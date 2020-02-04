@@ -1,0 +1,144 @@
+.who {
+  min-height: 100vh;
+}
+
+h2 {
+  color: white;
+  font-family: 'Righteous', cursive;
+padding-top: 5%;
+}
+#progressbar {
+  background-color: black;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+}
+
+#progressbar>div {
+  background-color: orange;
+  opacity: 0.5;
+  width: 80%;
+  /* Adjust with JavaScript */
+  height: 10px;
+  border-radius: 10px;
+}
+
+#progressbar1>div {
+  background-color: rgb(98, 65, 190);
+  opacity: 0.5;
+  width: 75%;
+  /* Adjust with JavaScript */
+  height: 10px;
+  border-radius: 10px;
+}
+#progressbar2>div {
+  background-color: rgb(208, 255, 0);
+  opacity: 0.5;
+  width: 85%;
+  /* Adjust with JavaScript */
+  height: 10px;
+  border-radius: 10px;
+}
+#progressbar3>div {
+  background-color: rgb(89, 195, 245);
+  opacity: 0.5;
+  width: 50%;
+  /* Adjust with JavaScript */
+  height: 10px;
+  border-radius: 10px;
+}
+#progressbar4>div {
+  background-color: rgb(255, 0, 128);
+  opacity: 0.5;
+  width: 70%;
+  /* Adjust with JavaScript */
+  height: 10px;
+  border-radius: 10px;
+}
+#progressbar5>div {
+  background-color: rgb(17, 0, 255);
+  opacity: 0.5;
+  width: 100%;
+  /* Adjust with JavaScript */
+  height: 10px;
+  border-radius: 10px;
+}
+.img img {
+    max-width: 90%;
+    align-items: center;
+    justify-content: center;
+} 
+
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+/* .container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+} */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+p {
+  font-family: 'Muli', sans-serif;
+
+}
+.neon {
+  font-family: neon;
+  color: #FB4264;
+  font-size: 5vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #F40A35;
+  text-align: center;
+}
+
+.flux {
+  font-family: neon;
+  color: #426DFB;
+  font-size: 5vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
+  text-align: center;
+
+}
+
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+.flux {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+
+hr {
+  color: white;
+}
