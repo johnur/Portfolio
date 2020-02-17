@@ -28,7 +28,8 @@ const Who = () => {
                             Olen entisessä elämässäni toiminut yrittäjänä sekä markkinoinnin parissa, ja nyt tavoitteenani on laajentaa osaamistani mahdollisimman monessa koodauksen osa-alueessa.
                             <br />
                             <br />
-                            <Link to="/me"><a>Minusta lisää</a></Link>
+                            <Link to="/me"><a>Minusta lisää</a></Link><br/>
+                            <a href="https://github.com/johnur/">GitHub</a>
 
                         </p>
                      

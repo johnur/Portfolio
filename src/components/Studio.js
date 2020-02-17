@@ -45,6 +45,7 @@ const Studio = () => {
                 </Row>
                 <div className="links">
                     <a href="https://studioleetoy.z6.web.core.windows.net/">Linkki sovellukseen (projekti työn alla)</a>
+                    <a href="https://github.com/johnur/Studio1337"><img className="git" src={git} /></a>
                 </div>
             </Container>
         </div>

@@ -35,7 +35,7 @@ const Teesalonki = () => {
             <img className='responsive' style={{marginLeft: 'auto', marginRight: 'auto', display: 'block'}} src={Uusi}/>
             <div style={{ textAlign: 'center' }}>
                 <a href="https://teesalonkisylvia.com/">Linkki Teesalonkiin</a> <br/>
-                <a href="https://github.com/unie31/teesalonki"><img className="git" src={git} /></a>
+                <a href="https://github.com/johnur/Teesalonki-Sylvia"><img className="git" src={git} /></a>
             </div>
             </Container>
         </div>
