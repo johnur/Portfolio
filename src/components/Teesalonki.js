@@ -1,21 +1,45 @@
 import React from 'react';
-
-
+import git from '../img/github.png';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Vanha from '../img/vanhaTeesalonki.PNG';
+import Uusi from '../img/teeUusi.PNG';
 
 const Teesalonki = () => {
     return (
-       <div>
-        <h3>Teesalonki Sylvia</h3>
-        <p>Hyvinkäällä sijaitsevan Teesalonki Sylvian kotisivut kaipasivat uudistusta modernimpaan ilmeeseen. Asiakkaalta tulivat kriteerit, mitä siinä varmasti täytyy olla, mutta ulkoasuun saatiin täysin vapaat kädet. Haluttiin 
-            projekti toteuttaa Reactilla, koska itselläni ei ollut mitään kokemusta siitä aikaisemmin, joten sai samalla opetella uutta kirjastoa. 
+        <div>
+            <Container>
+            <h2 style={{ fontSize: '50px', color: '#5d8a5a' }}>Teesalonki Sylvia</h2>
             <br/>
-            <h4>Miksi juuri tälläinen?</h4>
-            <p>Lähestyin projektiin täysin kuluttajan näkökulmasta. Kotisivut antaa kuitenkin vahvan ensivaikutelman paikasta, joten halusin että se näyttää luotettavalta ja että siitä välittyy salongin tunnelma. Myöskin tälläisen
-                kiireellisen arjen keskellä haluaa löytää nopeasti kaiken tarvittavan, ilman että joutuu etsimaan erikseen aukioloaikoja ja yhteystietoja. Parallaxin avulla yritettiin erottua kilpailijoista, mutta liiallinen kikkailu
-                tuntui väärältä. 
-            </p>
-        </p>
-       </div>
+            <p style={{ textAlign: 'justify' }}> Teesalonki Sylvia on pieni viihtyisä teehuone Hyvinkäällä, jonka kotisivut kaipasivat uudistusta modernimpaan ilmeeseen. Edelliset sivut olivat toteutettu PHP:llä vuosia sitten, 
+             joten tulimme tulokseen, että helpointa on aloittaa kokonaan alusta. Projekti toteutettiin kolmen hengen tiimissä, ja tämä oli ensikosketukseni Reactiin. 
+             Asiakkaalta tulivat tarkat sisällölliset vaatimukset, mutta ulkoasuun saimme täysin vapaat kädet.
+            <br />
+                <h4 style={{color: '#5d8a5a',  textAlign: 'center'   }}>Roolini projektissa:</h4>
+                <li>- Sivun rakenne, asettelu ja ulkoasu</li>
+                <li>- Logojen uudistaminen</li>
+                <li>- Parallax</li>
+                <li>- Fontit</li>
+                <li>- Napit</li>
+                <li>- Footer</li>
+                <li>- Sähköposti/formi</li> <br/>
+             
+                Kotisivut antavat lämpimän ensivaikutelman paikasta ja yleisesti yrityksestä. Halusin, että valmis tuote näyttää luotettavalta, ja että siitä välittyy salongin tunnelma. 
+                Raikkautta ulkoasuun toivat uudistetut logot ja selkeä sivurakenne. Mielestäni yrityksen kuvapankissa oli todella hienoja kuvia, joista sai heti sellaisen vaikutelman, että teevalikoima on kattava.
+                Halusinkin hyödyntää nimenomaan näitä kauniita kuvia Parallaxina, ja käyttää muita värejä mahdollisimman hillitysti. 
+            
+            </p><p style={{ textAlign: 'center' }}>Ennen:</p>
+            <img className='responsive' style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block'}} src={Vanha}/> <br/> 
+            <p style={{ textAlign: 'center' }}>Jälkeen:</p>
+            <img className='responsive' style={{marginLeft: 'auto', marginRight: 'auto', display: 'block'}} src={Uusi}/>
+            <div style={{ textAlign: 'center' }}>
+                <a href="https://teesalonkisylvia.com/">Linkki Teesalonkiin</a> <br/>
+                <a href="https://github.com/unie31/teesalonki"><img className="git" src={git} /></a>
+            </div>
+            </Container>
+        </div>
+
     );
 }
 

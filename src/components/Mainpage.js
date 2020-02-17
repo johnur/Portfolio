@@ -8,13 +8,14 @@ import Dream from './Dream';
 import Works from './Works';
 import '../style/Scrollbar.css';
 
+
 function Mainpage() {
   return (
     <div className="App" className="scrollbar scrollbar-morpheus-den">
       <div >
       <Start />
-      <Dream />
       <Who />
+      <Dream />
       <Works />
       <FormPage />
       </div>

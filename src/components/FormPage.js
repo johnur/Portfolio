@@ -5,6 +5,8 @@ import Phone from '../img/drawphone.png';
 import Shadow from '../img/shadow.png';
 import '../style/Contact.css';
 import * as emailjs from 'emailjs-com';
+import { getEmailJSuserID } from '../gAPIservice';
+
 
 
 const FormPage = () => {
@@ -15,10 +17,14 @@ const FormPage = () => {
     console.log('Handling change: ', formData)
   }
 
-  const handleSubmit = () => {
-    emailjs.send('sendgrid', 'template_km02ELtH', formData, 'user_sIMdLUPrDZ7KbGvoaXZnS')
-    console.log('Handle sublit succeed: ', formData);
+  const handleSubmit = async () => {
+    if (formData) {
+      let userID = await getEmailJSuserID();
+      emailjs.send('sendgrid', 'template_km02ELtH', formData, userID)
+      alert('Viestisi lähetetty, Johanna on Teihin yhteydessä mahdollisimman pian!')
+      console.log('Handle sublit succeed: ', formData);
   }
+};
 
 
   return (
@@ -34,7 +40,7 @@ const FormPage = () => {
         </MDBCol>
         <MDBCol md="6">
           <p className="h5 text-center mb-4">Lähetä sähköposti</p>
-          <form className='email'>
+          <form className='email' method='post'>
 
             <div className="grey-text">
               <MDBInput

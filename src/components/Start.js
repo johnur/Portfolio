@@ -1,15 +1,15 @@
 import React from 'react';
 import '../style/Start.css';
 
+
 const Start = () => (
-    <div className="start">
-        <p >ON AIKA TEHDÄ JOTAIN HULLUA</p>
+    <div >
+        <p className="alotusteksti"></p>
+        <p className="animaatio">import Johanna from '.. / Academy / C # ' ;</p> 
         <div className="scroll">
-            <a href="yourlink">
                 <div className="mouse">
                     <div className="wheel"></div>
                 </div>
-            </a>
         </div>
     </div>
 

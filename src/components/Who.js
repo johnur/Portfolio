@@ -16,25 +16,30 @@ const Who = () => {
                         <img src={me} />
                     </Col>
                     <Col sm >
-                        <p style={{marginTop: '25%'}}>
-                            Olen Johanna-Kristiina, valmistuin <a  href="https://www.academy.fi/">Academyn</a> C# luokalta IT-junior konsultiksi 2019 vuoden lopussa.
-                            Vimme vuoden syyskuussa mulla ei ollut mitään tietoa, mikä on JavaScript tai C#, taikka
-                            mikä niiden ero on. Olen innokas oppimaan lisää ja tykkään työskennellä tiimissä.
-                            Unelmani on päästä oppimaan ja työskentelemään motivoivassa tiimissä ja luoda silmäänpistäviä web-sivuja. 
-
+                        <p>
+                        <br />
                             <br />
                             <br />
-                            Entisessä elämässäni toimin markkinoinnin parissa, sekä yrittäjänä.
-                            Mutta tietotekniikka on ollut intohimoni aina, ja aino asia jota kadun, on se, että en ryhtynyt tähän aikaisemmin. <br/>
+                            <br/>
+                            Olen Johanna-Kristiina ja unelmani on luoda uniikkeja ja graafisia ulkoasuja, sekä mieleenpainuvia käyttäjäkokemuksia. 
+                            Valmistuin vuonna 2019  <a  href="https://www.academy.fi/">Academyn</a> C#-luokalta IT -juniorikonsultiksi, minkä jälkeen olen kasvattanut supervoimiani erityisesti Front Endin osalta.
+                            Varmistaakseni voimien tasapuolisen kasvun, olen aloittelevana moniosaajana kiinnostunut myös full stack -kehittämisestä.  <br/>
+                            <br/>
+                            Olen entisessä elämässäni toiminut yrittäjänä sekä markkinoinnin parissa, ja nyt tavoitteenani on laajentaa osaamistani mahdollisimman monessa koodauksen osa-alueessa.
+                            <br />
+                            <br />
                             <Link to="/me"><a>Minusta lisää</a></Link>
+
                         </p>
+                     
                     </Col>
                 </Row>
-                <Col>
-                <h2 style={{textAlign: 'center'}}>JUNIORIN KOKEMUS:</h2>
-                <br/>
+              
+               <Col>
+                    <h5 style={{ textAlign: 'center', marginTop:'50px' }}>Tämän hetken fiilikset:</h5>
+                    <br />
                     <div>
-                    <div id="progressbar2">
+                        <div id="progressbar2">
                             <div></div><p>HTML &amp; CSS</p>
                         </div>
                         <div id="progressbar">
@@ -43,9 +48,8 @@ const Who = () => {
                         <div id="progressbar1">
                             <div></div><p>JavaScript</p>
                         </div>
-                       
                         <div id="progressbar3">
-                            <div></div><p>React</p>
+                            <div></div><p>ReactJS</p>
                         </div>
                         <div id="progressbar4">
                             <div></div><p>Azure</p>
@@ -53,6 +57,7 @@ const Who = () => {
                         <div id="progressbar5">
                             <div></div><p>Motivaatio</p>
                         </div>
+                        <br />
                     </div>
                 </Col>
             </Container>
