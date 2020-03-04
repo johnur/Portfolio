@@ -13,7 +13,7 @@ const Works = () => {
         
                 <div className="service service3">
                     <h3>STUDIO 1337</h3>
-                    <span><video width="350" controls loop autoPlay playsInline muted src={Studioleet} /></span>
+                    <span><video width="320" controls loop autoPlay playsInline muted src={Studioleet} /></span>
                     <ul>
                     <li>JavaScript</li>
                     <li>CSS</li>
@@ -26,7 +26,7 @@ const Works = () => {
 
                 <div className="service service1">
                     <h3>TEESALONKI</h3>
-                    <span><video width="350" style={{paddingBottom: '30px'}} controls loop autoPlay playsInline muted src={Teesalonki} /></span>
+                    <span><video width="320" style={{paddingBottom: '30px'}} controls loop autoPlay playsInline muted src={Teesalonki} /></span>
                     <ul>
                     <li>ReactJS</li>
                     <li>JavaScript</li>
