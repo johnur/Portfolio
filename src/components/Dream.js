@@ -6,7 +6,7 @@ import '../style/Who.css';
 const Dream = () => {
     return (
         <Container>
-             <div className="container">
+             <div className="container neonDream">
                         <div className="neon">Let me dev </div>
                         <div className="flux">and buy me tacos </div>
                     </div>

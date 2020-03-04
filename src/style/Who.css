@@ -26,7 +26,7 @@ h2 {
 #progressbar>div {
   background-color: orange;
   opacity: 0.5;
-  width: 80%;
+  width: 75%;
   height: 10px;
   border-radius: 10px;
 }
@@ -34,28 +34,28 @@ h2 {
 #progressbar1>div {
   background-color: rgb(98, 65, 190);
   opacity: 0.5;
-  width: 75%;
+  width: 80%;
   height: 10px;
   border-radius: 10px;
 }
 #progressbar2>div {
   background-color: rgb(208, 255, 0);
   opacity: 0.5;
-  width: 85%;
+  width: 80%;
   height: 10px;
   border-radius: 10px;
 }
 #progressbar3>div {
   background-color: rgb(89, 195, 245);
   opacity: 0.5;
-  width: 50%;
+  width: 70%;
   height: 10px;
   border-radius: 10px;
 }
 #progressbar4>div {
   background-color: rgb(255, 0, 128);
   opacity: 0.5;
-  width: 70%;
+  width: 65%;
   height: 10px;
   border-radius: 10px;
 }
@@ -74,7 +74,7 @@ h2 {
 
 @font-face {
   font-family: neon;
-  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf');
 }
 
 
@@ -89,10 +89,10 @@ p {
 }
 .neon {
   font-family: neon;
-  color: #FB4264;
+  color: rgb(251, 66, 195);
   font-size: 5vw;
   line-height: 9vw;
-  text-shadow: 0 0 3vw #F40A35;
+  text-shadow: 0 0 3vw rgb(236, 10, 244);
   text-align: center;
 }
 
@@ -115,12 +115,12 @@ p {
 @keyframes neon {
   0%,
   100% {
-    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
-    color: #FED128;
+    text-shadow: 0 0 1vw rgb(151, 0, 113), 0 0 3vw rgb(159, 11, 189), 0 0 10vw rgb(255, 0, 242), 0 0 10vw #FA1C16, 0 0 .4vw rgb(255, 132, 218), .5vw .5vw .1vw #4f1480;
+    color: rgb(255, 107, 218);
   }
   50% {
-    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
-    color: #806914;
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw rgb(105, 11, 128), .5vw .5vw .1vw #40340A;
+    color: #f100c9;
   }
 }
 

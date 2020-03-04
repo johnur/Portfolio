@@ -29,7 +29,7 @@ const Me = () => {
                     <Col>
                         <h3 style={{ color: '#4145C5' }}>Harrastukset:</h3>
                         <p>Vapaa-ajallani pidän itseni kiireisenä eri urheilulajien ja taiteen parissa.
-                        Golfaus, fribee-golfaus, kuntosali tai jooga saavat minut hyvälle tuulelle ja auttavat jaksamaan paremmin.
+                        Golfaus, frisbee-golfaus, kuntosali tai jooga saavat minut hyvälle tuulelle ja auttavat jaksamaan paremmin.
                         Aivojani tykkään helliä luomalla taidetta.
                         </p>
                         <br />
@@ -46,7 +46,7 @@ const Me = () => {
                         <img className='responsive' style={{ maxWidth: '300px' }} src={mion} />
                     </Col>
                     <Col>
-                        <img className='responsive' style={{ maxWidth: '300px' }} src={namix} />
+                        <img className='responsive' src={namix} />
                     </Col>
                 </Row>
                 <br />
